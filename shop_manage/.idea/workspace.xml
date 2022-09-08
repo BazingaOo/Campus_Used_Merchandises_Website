@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shop_manage" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c530367-33d3-47ee-aa93-59987e128c7a" name="默认的" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/shop_jsp/user_UserPublish.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1976">
+              <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/shop_jsp/user_Registe.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/my eclipse/apache-tomcat-8.5.37/conf/server.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/com.user.action.UserAction">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.user.action.UserAction</OriginalElement>
+              <nodes>
+                <node x="1681.6166666666668" y="310.0">com.user.service.UserServiceImpl</node>
+                <node x="1401.6166666666668" y="0.0">com.user.dao.UserDao</node>
+                <node x="1104.0" y="138.5">java.io.Serializable</node>
+                <node x="402.99999999999994" y="1423.0">com.user.action.UserAction</node>
+                <node x="308.0" y="127.0">com.opensymphony.xwork2.Validateable</node>
+                <node x="1681.6166666666668" y="0.0">com.user.service.UserService</node>
+                <node x="155.0" y="127.0">com.opensymphony.xwork2.LocaleProvider</node>
+                <node x="319.99999999999994" y="376.0">com.opensymphony.xwork2.ActionSupport</node>
+                <node x="1220.6166666666668" y="814.0">com.entity.Feedback</node>
+                <node x="836.0" y="23.0">com.opensymphony.xwork2.ValidationAware</node>
+                <node x="1401.6166666666668" y="310.0">com.user.dao.UserDaoImpl</node>
+                <node x="0.0" y="69.0">com.opensymphony.xwork2.Action</node>
+                <node x="1049.6166666666668" y="606.5">com.entity.Users</node>
+                <node x="452.0" y="0.0">com.opensymphony.xwork2.TextProvider</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.entity.Users" target="java.io.Serializable">
+                  <point x="0.0" y="-268.0" />
+                  <point x="1125.1166666666668" y="356.0" />
+                  <point x="1164.0" y="356.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opensymphony.xwork2.ActionSupport" target="java.io.Serializable">
+                  <point x="151.66666666666663" y="-498.5" />
+                  <point x="653.6666666666665" y="346.0" />
+                  <point x="1124.0" y="346.0" />
+                  <point x="-40.0" y="14.5" />
+                </edge>
+                <edge source="com.user.service.UserServiceImpl" target="com.user.service.UserService">
+                  <point x="0.0" y="-141.5" />
+                  <point x="0.0" y="130.0" />
+                </edge>
+                <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.Action">
+                  <point x="-151.66666666666652" y="-498.5" />
+                  <point x="350.3333333333334" y="356.0" />
+                  <point x="67.5" y="356.0" />
+                  <point x="0.0" y="84.0" />
+                </edge>
+                <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.ValidationAware">
+                  <point x="91.0" y="-498.5" />
+                  <point x="593.0" y="336.0" />
+                  <point x="960.0" y="336.0" />
+                  <point x="0.0" y="130.0" />
+                </edge>
+                <edge source="com.user.dao.UserDaoImpl" target="com.user.dao.UserDao">
+                  <point x="0.0" y="-153.0" />
+                  <point x="0.0" y="130.0" />
+                </edge>
+                <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.TextProvider">
+                  <point x="30.33333333333337" y="-498.5" />
+                  <point x="532.3333333333333" y="326.0" />
+                  <point x="634.0" y="326.0" />
+                  <point x="0.0" y="153.0" />
+                </edge>
+                <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.Validateable">
+                  <point x="-30.333333333333258" y="-498.5" />
+                  <point x="471.6666666666667" y="336.0" />
+                  <point x="370.0" y="336.0" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+                <edge source="com.entity.Feedback" target="java.io.Serializable">
+                  <point x="0.0" y="-60.5" />
+                  <point x="1288.6166666666668" y="356.0" />
+                  <point x="1204.0" y="356.0" />
+                  <point x="40.0" y="14.5" />
+                </edge>
+                <edge source="com.user.action.UserAction" target="com.opensymphony.xwork2.ActionSupport">
+                  <point x="0.0" y="-348.5" />
+                  <point x="0.0" y="498.5" />
+                </edge>
+                <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.LocaleProvider">
+                  <point x="-91.0" y="-498.5" />
+                  <point x="410.99999999999994" y="346.0" />
+                  <point x="221.5" y="346.0" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="1280.0" y="544.0" />
+              <SelectedNodes>
+                <node>java.io.Serializable</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/user/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/user/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/WebRoot/user_jsp/user_xianyu.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/shop_jsp/shop_alteruser.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/css/shop/alteruser.css" />
+        <option value="$PROJECT_DIR$/WebRoot/css/shop/DownGood.css" />
+        <option value="$PROJECT_DIR$/WebRoot/css/shop/EditGood.css" />
+        <option value="$PROJECT_DIR$/WebRoot/css/shop/InvaildGood.css" />
+        <option value="$PROJECT_DIR$/WebRoot/shop_jsp/shop_UserPublish.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/css/shop/UserPublish.css" />
+        <option value="$PROJECT_DIR$/WebRoot/js/shop/test.js" />
+        <option value="$PROJECT_DIR$/WebRoot/shop_jsp/user_UserPublish.jsp" />
+        <option value="$PROJECT_DIR$/src/com/user/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="E:/my eclipse/apache-tomcat-8.5.37/conf/server.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="640" />
+    <option name="height" value="515" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebRoot/image" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\17 workplace\shop_manage\WebRoot\image\user" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shop_manage/shop_jsp/user_UserLogin.jsp" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shop_manage">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shop_manage" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/WebRoot/image">
+          <settings>
+            <option name="CONTEXT_PATH" value="/image" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shop_manage" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57587" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shop_manage" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c530367-33d3-47ee-aa93-59987e128c7a" name="默认的" comment="" />
+      <created>1559998631107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559998631107</updated>
+      <workItem from="1559998634632" duration="1202000" />
+      <workItem from="1559999859286" duration="359000" />
+      <workItem from="1560000240007" duration="155000" />
+      <workItem from="1560000437887" duration="584000" />
+      <workItem from="1560002398396" duration="9676000" />
+      <workItem from="1560057164931" duration="286000" />
+      <workItem from="1560057478274" duration="3202000" />
+      <workItem from="1560071002726" duration="3175000" />
+      <workItem from="1560082785511" duration="12871000" />
+      <workItem from="1560129563521" duration="301000" />
+      <workItem from="1560129894966" duration="525000" />
+      <workItem from="1560130451453" duration="3230000" />
+      <workItem from="1560953588732" duration="115000" />
+      <workItem from="1561210702630" duration="186000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35867000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10053619" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Learn" order="2" weight="0.32908848" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="设计师" order="8" />
+      <window_info id="Designer" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77077746" weight="0.3455344" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28111273" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.22922252" side_tool="true" weight="0.2796486" />
+      <window_info anchor="bottom" id="消息" order="10" weight="0.3290938" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329429" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32796487" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3290938" />
+      <window_info anchor="bottom" id="Spring" order="16" sideWeight="0.49932975" weight="0.329429" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="控制板" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/user_jsp/user_xianyu.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/com/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/user/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/css/shop/GoodMessage.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/shop_jsp/shop_alteruser.jsp" />
+    <entry file="file://$PROJECT_DIR$/WebRoot/image/user/index1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/css/shop/InvaildGood.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="399" column="5" selection-start-line="399" selection-start-column="5" selection-end-line="399" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/image/user/index3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/shop_jsp/shop_GoodMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/css/shop/DownGood.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="77" column="20" lean-forward="true" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/shop_jsp/shop_UserPublish.jsp" />
+    <entry file="file://$PROJECT_DIR$/WebRoot/css/shop/alteruser.css" />
+    <entry file="file://$PROJECT_DIR$/WebRoot/css/shop/UserPublish.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="234" column="4" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/css/shop/EditGood.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="249" column="6" selection-start-line="249" selection-start-column="6" selection-end-line="249" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/js/shop/test.js" />
+    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate-core-4.1.4.Final.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/Users.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+          <folding>
+            <element signature="e#3036#3037#0" expanded="true" />
+            <element signature="e#3071#3072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/xwork-core-2.2.1.jar!/com/opensymphony/xwork2/ActionSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+          <folding>
+            <element signature="e#4000#4001#0" expanded="true" />
+            <element signature="e#4067#4068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/user/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="262" column="25" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/user/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/user/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/shop_jsp/user_UserPublish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/shop_jsp/user_Registe.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/my eclipse/apache-tomcat-8.5.37/conf/server.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.user.action.UserAction">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.user.action.UserAction</OriginalElement>
+          <nodes>
+            <node x="1681.6166666666668" y="310.0">com.user.service.UserServiceImpl</node>
+            <node x="1401.6166666666668" y="0.0">com.user.dao.UserDao</node>
+            <node x="1104.0" y="138.5">java.io.Serializable</node>
+            <node x="402.99999999999994" y="1423.0">com.user.action.UserAction</node>
+            <node x="308.0" y="127.0">com.opensymphony.xwork2.Validateable</node>
+            <node x="1681.6166666666668" y="0.0">com.user.service.UserService</node>
+            <node x="155.0" y="127.0">com.opensymphony.xwork2.LocaleProvider</node>
+            <node x="319.99999999999994" y="376.0">com.opensymphony.xwork2.ActionSupport</node>
+            <node x="1220.6166666666668" y="814.0">com.entity.Feedback</node>
+            <node x="836.0" y="23.0">com.opensymphony.xwork2.ValidationAware</node>
+            <node x="1401.6166666666668" y="310.0">com.user.dao.UserDaoImpl</node>
+            <node x="0.0" y="69.0">com.opensymphony.xwork2.Action</node>
+            <node x="1049.6166666666668" y="606.5">com.entity.Users</node>
+            <node x="452.0" y="0.0">com.opensymphony.xwork2.TextProvider</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.entity.Users" target="java.io.Serializable">
+              <point x="0.0" y="-268.0" />
+              <point x="1125.1166666666668" y="356.0" />
+              <point x="1164.0" y="356.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.opensymphony.xwork2.ActionSupport" target="java.io.Serializable">
+              <point x="151.66666666666663" y="-498.5" />
+              <point x="653.6666666666665" y="346.0" />
+              <point x="1124.0" y="346.0" />
+              <point x="-40.0" y="14.5" />
+            </edge>
+            <edge source="com.user.service.UserServiceImpl" target="com.user.service.UserService">
+              <point x="0.0" y="-141.5" />
+              <point x="0.0" y="130.0" />
+            </edge>
+            <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.Action">
+              <point x="-151.66666666666652" y="-498.5" />
+              <point x="350.3333333333334" y="356.0" />
+              <point x="67.5" y="356.0" />
+              <point x="0.0" y="84.0" />
+            </edge>
+            <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.ValidationAware">
+              <point x="91.0" y="-498.5" />
+              <point x="593.0" y="336.0" />
+              <point x="960.0" y="336.0" />
+              <point x="0.0" y="130.0" />
+            </edge>
+            <edge source="com.user.dao.UserDaoImpl" target="com.user.dao.UserDao">
+              <point x="0.0" y="-153.0" />
+              <point x="0.0" y="130.0" />
+            </edge>
+            <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.TextProvider">
+              <point x="30.33333333333337" y="-498.5" />
+              <point x="532.3333333333333" y="326.0" />
+              <point x="634.0" y="326.0" />
+              <point x="0.0" y="153.0" />
+            </edge>
+            <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.Validateable">
+              <point x="-30.333333333333258" y="-498.5" />
+              <point x="471.6666666666667" y="336.0" />
+              <point x="370.0" y="336.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="com.entity.Feedback" target="java.io.Serializable">
+              <point x="0.0" y="-60.5" />
+              <point x="1288.6166666666668" y="356.0" />
+              <point x="1204.0" y="356.0" />
+              <point x="40.0" y="14.5" />
+            </edge>
+            <edge source="com.user.action.UserAction" target="com.opensymphony.xwork2.ActionSupport">
+              <point x="0.0" y="-348.5" />
+              <point x="0.0" y="498.5" />
+            </edge>
+            <edge source="com.opensymphony.xwork2.ActionSupport" target="com.opensymphony.xwork2.LocaleProvider">
+              <point x="-91.0" y="-498.5" />
+              <point x="410.99999999999994" y="346.0" />
+              <point x="221.5" y="346.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="1280.0" y="544.0" />
+          <SelectedNodes>
+            <node>java.io.Serializable</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>shop_manage</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (shop_manage)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|shop_manage</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.16-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

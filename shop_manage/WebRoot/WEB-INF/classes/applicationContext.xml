@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd 
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-3.1.xsd" 
+	>
+
+
+	<bean id="dataSource"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="url"
+			value="jdbc:mysql://localhost:3306/xiancai?useUnicode=true&amp;characterEncoding=UTF-8">
+		</property>
+		<property name="username" value="root"></property>
+		<property name="password" value="123456"></property>
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				
+			</props>
+		</property>
+		
+		<property name="mappingResources">
+			<list>
+				<value>com/entity/Users.hbm.xml</value>
+				<value>com/entity/Feedback.hbm.xml</value></list>
+		</property>
+		</bean>
+		<!-- spring3已经不支持了 -->
+		<!--  <bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">  
+       		 <property name="sessionFactory" ref="sessionFactory" />  
+    	</bean> -->
+	<!-- 声明事务管理器 -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<tx:annotation-driven transaction-manager="transactionManager" />
+	<!-- 定义事务通知 -->
+		 <tx:advice id="txAdvice" transaction-manager="transactionManager">
+	   <tx:attributes>
+	   <tx:method name="*" propagation="REQUIRED"/>
+	   </tx:attributes>
+	   </tx:advice>
+	   
+	    <aop:config>
+		   <aop:pointcut expression="execution(* com.user.service.*.*(..))" id="serviceMethods"/>
+		   <aop:advisor advice-ref="txAdvice"  pointcut-ref="serviceMethods"/>
+	    </aop:config>
+	
+		<aop:config>
+		   <aop:pointcut expression="execution(* com.user.dao.*.*(..))" id="daoMethods"/>
+		   <aop:advisor advice-ref="txAdvice"  pointcut-ref="daoMethods"/>
+	    </aop:config>
+	        
+
+	
+	
+	<!-- 配置DAO的类 -->
+	<bean id="userDao" class="com.user.dao.UserDaoImpl" scope="prototype">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+
+	<!-- 配置Service的类 -->		
+	<bean id="userService" class="com.user.service.UserServiceImpl" scope="prototype">
+		<property name="userDao" ref="userDao" />
+	</bean>
+
+	
+	<!-- 配置Action的类 -->
+	<bean id="userAction" class="com.user.action.UserAction" scope="prototype">
+		<property name="userService" ref="userService" />
+	</bean>
+
+	
+	
+	
+	
+</beans>

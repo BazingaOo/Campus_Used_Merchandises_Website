@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+   	
+<package name="default" extends="struts-default">
+	  <!--定义doLogin的Action,class属性使用Spring配置文件中定义的相应的Bean实例名称  -->
+      <!-- <action name="doLogin" class="userAction">
+      	定义处理结果和资源之间的映射关系
+          <result name="input">/shop_jsp/shop_HomePage.jsp</result>
+          <result name="success">/shop_jsp/shop_HomePagelogin.jsp</result>
+      </action> -->
+
+      			
+      <action name="user_*" class="userAction" method="{1}">
+      	<!-- 定义处理结果和资源之间的映射关系-->
+      	
+      	
+			
+			<result name="error">/shop_jsp/user_UserLogin.jsp</result>
+ 			<result name="success" type="redirect">/shop_jsp/shop_HomePagelogin.jsp</result>		<!-- redirectAction -->
+			<result name="findusersuccess" type="redirect">/shop_jsp/user_UserPublish.jsp</result>
+			<result name="updatesuccess" type="redirect">/shop_jsp/user_UserPublish.jsp</result>
+			<result name="registeSuccess" type="redirect">/shop_jsp/user_UserLogin.jsp</result>
+			<result name="registeFail" type="redirect">/shop_jsp/user_Registe.jsp</result>
+			<result name="addMoneySuccess" type="redirect">/shop_jsp/user_UserPublish.jsp</result>
+			<result name="deleteUser" type="redirect">/shop_jsp/user_UserLogin.jsp</result>	
+			<result name="addFeedbackInfosuccess" type="redirect">/shop_jsp/user_UserFeedback.jsp</result>		
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="fileUpload">					
+					<param name="maximumSize">5000000</param>
+				</interceptor-ref>
+      </action>
+
+</package>
+
+</struts>    
